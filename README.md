@@ -121,7 +121,7 @@ pry(main)> nbc.shows
 # => [#<Show:0x00007fe5f8398970...>, #<Show:0x00007fe5f88b0a20...>]
 
 pry(main)> nbc.main_characters
-# => [#<Character:0x00007f98a4ba8dc8...>]
+# => [#<Character:0x00007fe5f8448f78...>]
 
 pry(main)> nbc.actors_by_show
 # => {
@@ -167,9 +167,6 @@ pry(main)> leslie_knope = Character.new({name: "Leslie Knope", actor: "Amy Poehl
 
 pry(main)> ron_swanson = Character.new({name: "Ron Swanson", actor: "Nick Offerman", salary: 1_400_000})
 # => #<Character:0x00007fe5f8172a60...>
-
-pry(main)> parks_and_rec = Show.new("Parks and Recreation", "Michael Shur & Greg Daniels", [leslie_knope, ron_swanson])
-# => #<Show:0x00007fe5f88b0a20...>
 
 pry(main)> parks_and_rec = Show.new("Parks and Recreation", "Michael Shur & Greg Daniels", [leslie_knope, ron_swanson])
 # => #<Show:0x00007fe5f88b0a20...>
